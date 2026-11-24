@@ -4,30 +4,30 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/actions.yml':
-        - 'actions/checkout@v4.4.0'
+        - 'actions/checkout@v7.0.1'
     '.github/workflows/kubernetes.yml':
-        - 'actions/checkout@v4.4.0'
-        - 'actions/setup-go@v5.6.0'
-        - 'azure/setup-helm@v4.3.1'
-        - 'engineerd/setup-kind@v0.6.2'
+        - 'actions/checkout@v7.0.1'
+        - 'actions/setup-go@v7.1.0'
+        - 'azure/setup-helm@v5.1.0'
+        - 'engineerd/setup-kind@v0.6.1'
 dependencies:
-    'actions/checkout@v4.4.0':
-        ref: 'v4.4.0'
-        commit: 'sha1-11d5960a326750d5838078e36cf38b85af677262'
+    'actions/checkout@v7.0.1':
+        ref: 'v7.0.1'
+        commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
         owner_id: 44036562
         repo_id: 197814629
-    'actions/setup-go@v5.6.0':
-        ref: 'v5.6.0'
-        commit: 'sha1-40f1582b2485089dde7abd97c1529aa768e1baff'
+    'actions/setup-go@v7.1.0':
+        ref: 'v7.1.0'
+        commit: 'sha1-d8cbb8045d7f43706b9177cceb36c1f91a6644d5'
         owner_id: 44036562
         repo_id: 192624594
-    'azure/setup-helm@v4.3.1':
-        ref: 'v4.3.1'
-        commit: 'sha1-1a275c3b69536ee54be43f2070a358922e12c8d4'
+    'azure/setup-helm@v5.1.0':
+        ref: 'v5.1.0'
+        commit: 'sha1-2f5e7bc67f1f9972ab16657bb795f36d8f04de0e'
         owner_id: 6844498
         repo_id: 210310251
-    'engineerd/setup-kind@v0.6.2':
-        ref: 'v0.6.2'
-        commit: 'sha1-71e45b960fc8dd50b4aeabf6eb6ef2ca0920b4c1'
+    'engineerd/setup-kind@v0.6.1':
+        ref: 'v0.6.1'
+        commit: 'sha1-0984072cad7cb3043e573a61aecc7e95c7b3fbd4'
         owner_id: 47736799
         repo_id: 203587971
